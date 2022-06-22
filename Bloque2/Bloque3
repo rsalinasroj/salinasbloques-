@@ -1,0 +1,90 @@
+print("hola todo lo de este juego no debe aplicarse en la vida cotidiana!Advertencia¡")
+input()
+print("ingresa tu , nombre")
+a=input("")
+print("Bienvenido,")
+print(a)
+input()
+print("estas en sinaloa quieres ir a una tienda de armas?")
+a=input("")
+
+if a=="si":
+  print("estas en camino ve pensando que arma compraras")
+  print("las armas que estan disponisbles son: -Rifle  - Escopeta - Pistola -francotirador")
+  b=input("")
+  if b=="Rifle":
+    print(" ahora tienes un rifle")
+     
+  elif b=="escopeta":  
+    print("")
+    
+  elif b=="pistola":
+    
+  
+
+   print("ahora llevas", b)
+   input("")
+   b=input("")
+   print("!Ya tienes un,", b)
+   print("Vamos a matar gente!")
+   input("")
+   print("cuidado! te acaba de parar un federal!")
+   print("Que vas hacer? si=ir a la carcel no=matarlo")
+    
+   c=input("")
+  if c=="si":
+     print("ni modo estas siendo encarcelado en una carcel de maxima seguridad")
+     input("")
+
+     
+     print("no puedes escapar asi que el juego ha terminado")
+     print("!Te asesinaron¡ Esto no debe aplicarse en la vida cotidiana")
+     
+if c=="no":
+     print(" !Acabas de matar un policia ahora estas siendo buscado por la policia¡")
+input("")
+print("alguien te ofrece refugio y ayuda aceptas?")
+
+e=input("")
+if e=="si":
+  print('estas en su refugio el te ayudara a huir y en todo sera tu socio')
+input("")
+
+print("Noo! es un agente secreto de la dea acabas de ser descubierto iras a la carcel..Game Over")
+input("")
+print("Este juego no debe aplicarse en la vida real,...")
+
+if e=="no":
+   print("estas solo en la ciudad quieres ir por algo de comida")
+   input("")
+   print("hay donas que sabor quieres si=chocolate no=azucar")
+   e=input("")
+   if e=="si":
+     print("estas comiendo una dona de chocolate envenenada moriste")
+   if e=="no":
+     print("estas comiendo una dona de azucar envenada y moriste")
+     input("")
+     print("este juego no debe aplicarse en la vida, pronto habra una continuacion")
+   
+ 
+if a=="no":
+  print("esta bien vamos mejor a comer")
+  input("")
+  print(" estas en mcdonals el menu es: Hambuerguesa-papas-nuggets que deseas?")
+  f=input("")
+  if f=="Hamburguesa":
+    print("ahora llevas", a)
+    
+    print("")
+  elif f=="papas":
+    print("ahora llevas", a)
+   
+  elif f=="nuggets":
+    
+    print("ahora llevas", a)
+    
+    
+    f=input("")
+    print("te has envenenado con", a)
+    print("el juego ha terminado esto no debe aplicarse en la vida real")
+    
